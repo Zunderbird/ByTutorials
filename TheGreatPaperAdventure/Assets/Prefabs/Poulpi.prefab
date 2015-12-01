@@ -16,22 +16,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &146050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 419078}
-  - 114: {fileID: 11443994}
-  m_Layer: 0
-  m_Name: WeaponObject_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &198898
 GameObject:
   m_ObjectHideFlags: 0
@@ -53,25 +37,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &419078
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 146050}
-  m_LocalRotation: {x: 0, y: 0, z: .866025507, w: .499999881}
-  m_LocalPosition: {x: -2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 469196}
-  m_RootOrder: 1
 --- !u!4 &460222
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117314}
-  m_LocalRotation: {x: 0, y: 0, z: .866025269, w: -.500000238}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -1.62920685e-07}
   m_LocalPosition: {x: -2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -88,7 +60,6 @@ Transform:
   m_LocalScale: {x: .800000012, y: .800000012, z: 1}
   m_Children:
   - {fileID: 460222}
-  - {fileID: 419078}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!50 &5012528
@@ -170,19 +141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hp: 1
   IsEnemy: 1
---- !u!114 &11443994
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 146050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5741745afb240f046b505537bb97fc36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShotPrefab: {fileID: 408636, guid: 8129534f263a0f04b92358709786e131, type: 2}
-  ShootingRate: .75
 --- !u!212 &21293400
 SpriteRenderer:
   m_ObjectHideFlags: 1

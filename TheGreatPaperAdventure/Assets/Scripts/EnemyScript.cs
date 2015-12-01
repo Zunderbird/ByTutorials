@@ -28,7 +28,7 @@ public class EnemyScript : MonoBehaviour
         // -- collider
         GetComponent<Collider2D>().enabled = false;
         // -- Moving
-        _moveScript.enabled = false;
+        //_moveScript.enabled = false;
         // -- Shooting
         foreach (var weapon in _weapons)
         {
@@ -49,11 +49,15 @@ public class EnemyScript : MonoBehaviour
         else
         {
             // Auto-fire
+            if (Random.value > 0.7)
             _weapons
                 .Where(weapon => weapon != null && weapon.enabled && weapon.CanAttack)
                 .ToList()
-                .ForEach(weapon => weapon.Attack(true));
-
+                .ForEach(weapon =>
+                {
+                    weapon.Attack(true);
+                    SoundEffectsHelper.Instance.MakeEnemyShotSound();  
+                });
             // 4 - Out of the camera ? Destroy the game object.
             if (GetComponent<Renderer>().IsVisibleFrom(Camera.main) == false)
             {

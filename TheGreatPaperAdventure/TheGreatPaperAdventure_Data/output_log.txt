@@ -1,0 +1,38 @@
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7660D (ID=0x9901)
+    Vendor:   ATI
+    VRAM:     991 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.057 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\Ruslana\Github\ByTutorials\TheGreatPaperAdventure\TheGreatPaperAdventure_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1f24 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.548685 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 494.
+Total: 0.344009 ms (FindLiveObjects: 0.041023 ms CreateObjectMapping: 0.023863 ms MarkObjects: 0.268933 ms  DeleteObjects: 0.008311 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.561729 ms
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 221.
+Total: 0.315319 ms (FindLiveObjects: 0.025740 ms CreateObjectMapping: 0.010725 ms MarkObjects: 0.254722 ms  DeleteObjects: 0.022790 ms)
+

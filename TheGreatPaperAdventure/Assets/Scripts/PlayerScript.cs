@@ -36,6 +36,7 @@ public class PlayerScript : MonoBehaviour
             {
                 // false because the player is not an enemy
                 weapon.Attack(false);
+                SoundEffectsHelper.Instance.MakePlayerShotSound();
             }
 
         }
@@ -95,5 +96,13 @@ public class PlayerScript : MonoBehaviour
             var playerHealth = this.GetComponent<HealthScript>();
             if (playerHealth != null) playerHealth.Damage(1);
         }
+    }
+
+    void OnDestroy()
+    {
+        // Game Over.
+        // Add the script to the parent because the current game
+        // object is likely going to be destroyed immediately.
+        transform.parent.gameObject.AddComponent<GameOverScript>();
     }
 }

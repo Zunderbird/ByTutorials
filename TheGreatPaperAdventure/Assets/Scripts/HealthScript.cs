@@ -25,6 +25,10 @@ public class HealthScript : MonoBehaviour
 
         if (Hp <= 0)
         {
+            // 'Splosion!
+            SpecialEffectsHelper.Instance.Explosion(transform.position);
+            SoundEffectsHelper.Instance.MakeExplosionSound();
+
             // Dead!
             Destroy(gameObject);
         }
