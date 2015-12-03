@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079dd883dd1dc634f975058b7d8abdfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: {x: 30, y: 30}
+  Speed: {x: 10, y: 10}
   Direction: {x: -1, y: 0}
 --- !u!114 &11482296
 MonoBehaviour:
@@ -143,11 +143,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: Speed.x
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: Speed.y
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
